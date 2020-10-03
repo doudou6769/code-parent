@@ -3,23 +3,31 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>code-parent</artifactId>
+        <artifactId>code-core</artifactId>
         <groupId>com.doudou</groupId>
         <version>0.1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>code-core</artifactId>
+    <artifactId>code-core-utils</artifactId>
     <packaging>pom</packaging>
-    <name>code-core</name>
+    <name>code-core-utils</name>
     <url>http://maven.apache.org</url>
 
-    <modules>
-        <module>code-core-utils</module>
-    </modules>
-
     <properties>
+        <hutool.version>5.4.4</hutool.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <modules>
+        <module>code-core-utils-base</module>
+        <module>code-core-utils-bloomFilter</module>
+        <module>code-core-utils-cache</module>
+        <module>code-core-utils-crypto</module>
+        <module>code-core-utils-extra</module>
+        <module>code-core-utils-http</module>
+        <module>code-core-utils-captcha</module>
+        <module>code-core-utils-poi</module>
+    </modules>
 
 </project>
