@@ -15,6 +15,7 @@
 
     <modules>
         <module>code-core</module>
+        <module>code-test</module>
     </modules>
 
     <properties>
