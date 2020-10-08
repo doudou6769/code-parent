@@ -16,13 +16,23 @@
     <modules>
         <module>code-core</module>
         <module>code-test</module>
+        <module>code-bg-admin</module>
     </modules>
 
     <properties>
         <java.version>1.8</java.version>
         <main.basedir>${basedir}/../..</main.basedir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- 项目版本 -->
         <code.version>0.1.0-SNAPSHOT</code.version>
+        <!-- mybatis版本 -->
+        <mybatis.version>2.0.4</mybatis.version>
+        <!-- 连接池版本 -->
+        <druid.version>1.1.9</druid.version>
+        <!-- 分页插件版本 -->
+        <pagehelper.version>1.2.4</pagehelper.version>
+        <!-- swagger版本 -->
+        <swagger.version>1.2.0.RELEASE</swagger.version>
     </properties>
 
     <dependencyManagement>
