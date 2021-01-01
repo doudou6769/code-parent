@@ -16,7 +16,8 @@
     <modules>
         <module>code-core</module>
         <module>code-test</module>
-        <module>code-bg-admin</module>
+        <module>code-security-test</module>
+        <!--        <module>code-bg-admin</module>-->
     </modules>
 
     <properties>
